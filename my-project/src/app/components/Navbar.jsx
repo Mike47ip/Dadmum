@@ -14,6 +14,7 @@ const Navbar = ({ scrollToSection, homeRef, aboutRef, servicesRef, bookingRef, c
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <Plane className="h-8 w-8 text-blue-600" />
+          {/* <img src='./images/DADMUM.png' className='w-2' /> */}
           <span className="text-2xl font-bold text-blue-600">DadMum</span>
         </div>
         

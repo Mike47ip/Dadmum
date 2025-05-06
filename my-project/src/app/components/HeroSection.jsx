@@ -22,7 +22,7 @@ const HeroSection = ({ homeRef, scrollToSection, bookingRef }) => {
           <div className="md:w-1/2">
             <AnimatedSection delay={2}>
               <div className="bg-white/20 backdrop-blur-lg p-6 rounded-lg shadow-xl">
-                <img src="/api/placeholder/600/400" alt="Airplane in the sky" className="rounded w-full h-full object-cover" />
+                <img src="/images/flight.jpg"  alt="Airplane in the sky" className="rounded w-full h-full object-cover" />
               </div>
             </AnimatedSection>
           </div>
