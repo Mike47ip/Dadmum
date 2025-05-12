@@ -1,6 +1,7 @@
 import React from 'react';
 import { ChevronsRight } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
+import Image from 'next/image';
 
 const HeroSection = ({ homeRef, scrollToSection, bookingRef }) => {
   return (
@@ -22,7 +23,14 @@ const HeroSection = ({ homeRef, scrollToSection, bookingRef }) => {
           <div className="md:w-1/2">
             <AnimatedSection delay={2}>
               <div className="bg-white/20 backdrop-blur-lg p-6 rounded-lg shadow-xl">
-                <img src="/images/flight.jpg"  alt="Airplane in the sky" className="rounded w-full h-full object-cover" />
+                                <Image 
+                  src="/images/flight.jpg"
+                  alt="Airplane in the sky"
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  className="rounded"
+                  priority
+                />
               </div>
             </AnimatedSection>
           </div>
